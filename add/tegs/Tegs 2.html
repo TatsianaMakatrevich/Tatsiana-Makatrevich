@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дополнительное задание Теги</title>
+</head>
+<body>
+<h1 align="center"><b>Заголовок первого уровня</b></h1>
+<h2 align="left"><b>Предварительно форматированный текст&colon;</b></h2>
+<pre>
+ x | o |  
+----------
+   | x |   
+----------
+ o | x | o
+</pre>
+<hr>
+<h2 align="left"><b>Тег address</b></h2>
+<p><adress><i>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</i></adress></p>
+<hr>
+<h2 align="left"><b>Семантические и функциональные строчные теги</b></h2>
+<style>
+    del {
+    color: red; /* Цвет удаленного текста */
+   }
+   ins {
+    color: blue; /* Цвет добавленного текста*/
+   }
+</style>
+<p>Пожелания автора&colon; 
+<br><del>Данный текст убрать из монографии</del> и заменить его на <ins>вновь помещенный текст</ins>/
+</p>
+<hr></hr>
+<h2 align="left"><b>Работа со строчными и блоковыми цитатами</b></h2>
+<!--как сделать, чтобы цитата отображалась по левой стороне, align не помог-->
+<p>Цитата короткая&colon;
+    <blockquote><i>И всё-­таки она вертится!</i></blockquote></p>
+    <p>Цитата занимающая несколько предложений&colon;
+    <blockquote align="left">О сколько нам открытий чудных
+    <br>Готовят просвещенья дух
+    <br>И опыт, сын ошибок трудных,
+    <br>И гений, парадоксов друг,
+    <br>И случай, бог изобретатель...</blockquote></p>
+<hr>
+<h2 align="left"><b>Семантические и функциональные строчные теги</b></h2>
+<p><strong>Тэг <kdb>&lt;STRONG&gt;</kdb> делает данный фрагмент текста более важным.</strong>
+<em>Тэг <kdb>&lt;em&gt;</kdb> менее важным.</em>
+В то время как теги <kdb>&lt;b&gt</kdb> и <kdb>&lt;i&gt</kdb> делают текст просто <b>полужирным</b> и <i>курсивом</i> 
+соответственно.</p>
+<hr> 
+<!--не получился, какую часть вносить в рамки тега <code>?-->
+<h2 align="left">Теги форматирования машинного языка</h2>
+
+<p>При выполнении программного кода на языке PERL&colon;
+<br><code>#!/usr/local/bin/perl
+<br>print "Content‐type: text/html\n\n";
+<br>print "<H1>Hello World</H1>\n";</code></p>
+<br><p>Программа выведет&colon;
+<br><code>Hello, World!</code>
+<br>Однако в браузере у нас будет отображаться результат выполнения этой программы:
+</p>
+<hr>
+<h2 align="left"><b>Комментарии и литералы(мнемоники) в HTML</b></h2>
+<!--это комментарий-->
+<!--и это аткже комментарий, занимающий более одной строки-->
+<hr>
+<h2 align="left"><b>Теги над&hyphen;­ и подстрочных символов</b></h2>
+<h3 align="center">Магазин работает&colon;</h3>
+<p align="center">c 8<sup><u>30</u></sup> до 18<sup><u>30</u></sup>
+    <br>обед c 13<sup><u>00</u></sup> до 14<sup><u>00</u></sup>
+    <br>выходной&colon; <u>суббота, </u><u>воскресенье</u>
+    </p>
+<hr>
+<h2 align="left"><b>Вот такой текст</b></h2>
+<p><sup>Э</sup><SUB>т</SUB><sup>o</sup> <SUB>п</SUB><sup>р</sup><SUB>о</SUB><sup>с</sup><SUB>т</SUB><sup>о</sup> 
+<SUB>в</SUB><sup>е</sup><sub>с</sub><sup>ё</sup><sub>л</sub><sup>ы</sup><sub>й</sub> 
+<sup>т</sup><sub>е</sub><sup>к</sup><sub>с</sub><sup>т</sup></p>
+<hr>
+<h2 align="left"><b>Акроним и курсив</b></h2>
+<p>
+   ТФ=<var>Y(x)=<var>e<sup><var>i&pi;x</var></sup></var>+<var>log<sub>x</sub></var>4 
+</p>
+<hr>
+<h2 align="left"><b>Тег small внтури абзаца</b></h2>
+<p align="right"><small>Создано при помощи блокнота&copy;</small></p>
+</body>
+</html>
