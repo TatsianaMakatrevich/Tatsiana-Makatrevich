@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+        .a {
+        color: inherit;
+        }
+        .first, .third a{
+            color:green;
+            font-size: 30px;
+            
+    }
+    .second div>a {
+        color:green;
+        font-size: 30px;
+    }
+    .first, .third a:hover{
+        color: red;
+    }
+    .second div>a:hover{
+        color: red; 
+    }
+    .vertical_line_left{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        position: relative;
+        display: inline-block;
+    }
+    .vertical_line_left::before{
+        content: "";
+        background: red;
+        width:3px;
+        height: 30px;
+        /*линия смещена на 10пикселей слева от текста*/
+        left:10px;
+        /*включаем абсолютное позиционирование относительно блока relative*/
+        position: absolute;
+
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+}
+.second hr{
+    width:3px;
+    height: 30px;
+    padding: 0px;
+    margin: 17px;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    
+}
+.third .vl{
+    width: 20px;
+    border-left: 4px solid red;
+    margin-left: 17px;
+}
+</style>
+</head>
+<body>
+    /*использование псевдоэлемента BEFORE, удобно тем, что не понадобится правка HTML кода*/
+    <div  class="first">
+        <a href="https://freshcraft.ru/%D0%B2%D0%BE%D1%81%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5-%D1%86%D0%B2%D0%B5%D1%82%D0%B0/?ysclid=lffklwydb2421498644">first link</a>
+        <div class="vertical_line_left" ></div>
+        <a href="https://www.championat.com/lifestyle/article-4044025-chto-budet-esli-est-banany-kazhdyj-den-kalorijnost-polza-i-vred-mnenie-dietologa.html">second link</a>
+        <div class="vertical_line_left" ></div>
+        <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE">third  link</a>
+        <div class="vertical_line_left" ></div>
+        <a href="https://dolinasad.by/blog/sovety-pokupatelyam/sekrety-vyrashchivaniya-arbuza-i-dyni-v-belarusi-pravila-posadki-i-ukhoda/">fourth link</a>
+        <div class="vertical_line_left" ></div>
+        <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BC%D0%B5%D1%80%D1%87">fifth link</a>
+    </div>
+   
+   <br>
+   
+   <br>
+   /*использование тега HR, предварительно завернув теги в DIV и выровнив их с помощью flex, при изменении размера текста ссылки нужно подгонять размер*/
+    <div class="second">
+       <div><a href="https://freshcraft.ru/%D0%B2%D0%BE%D1%81%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5-%D1%86%D0%B2%D0%B5%D1%82%D0%B0/?ysclid=lffklwydb2421498644">first link</a></div> <hr>
+       <div><a href="https://www.championat.com/lifestyle/article-4044025-chto-budet-esli-est-banany-kazhdyj-den-kalorijnost-polza-i-vred-mnenie-dietologa.html">second link</a></div> <hr>
+       <div><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE">third  link</a></div><hr>
+       <div><a href="https://dolinasad.by/blog/sovety-pokupatelyam/sekrety-vyrashchivaniya-arbuza-i-dyni-v-belarusi-pravila-posadki-i-ukhoda/">fourth link</a></div><hr>
+       <div><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BC%D0%B5%D1%80%D1%87">fifth link</a></div>
+    </div>
+
+    <br>
+   
+   <br>
+/*обозначаем границы div и окрашиваем одну сторону в нужный цвет и задаем нужный размер*/
+    <div class="third">
+        <a href="https://freshcraft.ru/%D0%B2%D0%BE%D1%81%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5-%D1%86%D0%B2%D0%B5%D1%82%D0%B0/?ysclid=lffklwydb2421498644">first link</a>
+       <div class="vl"></div>
+        <a href="https://www.championat.com/lifestyle/article-4044025-chto-budet-esli-est-banany-kazhdyj-den-kalorijnost-polza-i-vred-mnenie-dietologa.html">second link</a>
+        <div class="vl"></div>
+        <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE">third  link</a>
+        <div class="vl"></div>
+        <a href="https://dolinasad.by/blog/sovety-pokupatelyam/sekrety-vyrashchivaniya-arbuza-i-dyni-v-belarusi-pravila-posadki-i-ukhoda/">fourth link</a>
+        <div class="vl"></div>
+        <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BC%D0%B5%D1%80%D1%87">fifth link</a>
+    </div>
+</body>
+</html>

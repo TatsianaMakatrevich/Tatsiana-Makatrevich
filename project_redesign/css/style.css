@@ -342,10 +342,11 @@ justify-content: center;
 margin-top: 50px;
 }
 
-.ChoosingUs .ChoosingUs3 ul li:nth-child(1){
-text-align: left;
+.ChoosingUs .ChoosingUs3 ul{
+justify-content: flex-start;
 width: 398px;
 height: 297px; 
+margin-left: 190px;
 }
 
 .ChoosingUs ul li:nth-child(n+1){

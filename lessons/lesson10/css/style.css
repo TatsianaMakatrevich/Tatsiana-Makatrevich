@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    } 
+
+.real{
+background-color: grey;
+}
+
+.header{
+    background: salmon;
+    text-align: center;
+    height: 60px;
+}
+.menu{
+    background: red;
+    width: 200px;
+    float: left;
+}
+.content{
+    background: yellow;
+}
+.banner{
+    background: green;
+    width: 200px;
+    float: right;
+}
+.footer{
+    background: rgb(200, 113, 234);
+    text-align: center;
+    height: 60px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+@media all and (max-width: 1008px) {
+.banner, .menu{
+    height: 500px;
+    float: none;
+    width: 100%;
+}
+.content {
+    background-color: aquamarine;
+}
