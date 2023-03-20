@@ -12,27 +12,30 @@
             box-sizing: border-box;
         }
 
-.stars{
-    display: flex;
-    justify-content: flex-start;
+span.star{
+    position: relative;
+    display: inline-block;
+    
 }
-.star1:hover{
-  color: red;
-
-}
-
-
-
+span.star:hover::before{
+    content: "";
+    position: absolute;
+    background: url(pic/star2.png);
+    width: 76px;
+    height: 78px;
 }
     </style>
 </head>
 <body>
-    <div class="stars">
-    <div class="star1"><img src="pic/star1.png" alt="star"></div>
-    <div class="star2"><img src="pic/star1.png" alt="star"></div>
-    <div class="star3"><img src="pic/star1.png" alt="star"></div>
-    <div class="star4"><img src="pic/star1.png" alt="star"></div>
-    <div class="star5"><img src="pic/star1.png" alt="star"></div>
-</div>
+    <span class="star"><img src="pic/star1.png">
+    <span class="star"><img src="pic/star1.png">
+    <span class="star"><img src="pic/star1.png">
+    <span class="star"><img src="pic/star1.png">
+    <span class="star"><img src="pic/star1.png">
+    </span>
+</span>
+</span>
+</span>
+</span>
 </body>
 </html>
