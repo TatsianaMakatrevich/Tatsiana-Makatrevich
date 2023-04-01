@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+        <label>Full name</label> <input type="text" value="ФИО" name="fullname" placeholder="full name"> <br> 
+        E-mail <input type="email" value="e-mail" name="e-mail" placeholder="e-mail"> <br>
+        Password <input type="password" value="Пароль" name="Пароль" placeholder="password"> <br>
+        Date of birth <input type="date" value="Дата рождения" name="Date of birth"> <br>
+        Country <select name="Country">
+                <option value="1">Portugal</option>
+                <option value="2">Spain</option>
+                <option value="3">Italy</option>
+                <option value="4">Poland</option>
+            </select> <br>
+        Gender <input type="radio" value="Пол" name="Gender"> Male 
+                <input type="radio" value="Пол" name="Gender"> Female  
+                <input type="radio" value="Пол" name="Gender"> Unknown <br>
+        Meal preference <input type="checkbox" value="preference" name="preference"> Low calories 
+                             <input type="checkbox" value="preference" name="preference"> Low salt <br>
+
+
+        <input type="submit"> 
+    </form>
+   
+</body>
+</html>
