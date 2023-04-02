@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p>Тег <picture> используется для отображения изображений с альтернативными источниками в зависимости от разрешения экрана. 
+        Это позволяет браузеру выбирать наиболее подходящее 
+        изображение для текущего экрана и загружать только его, что уменьшает время загрузки страницы и улучшает производительность.</p>
+    <picture>
+        <source srcset="pic/yandex_mob1.png" media="(max-width:768px)">
+        <source srcset="pic/yandex_middle.png" media="(max-width:1200px)">
+        <img src="pic/yandex.png" alt="yandex">
+    </picture>
+</body>
+</html>
