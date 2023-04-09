@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    margin: 0 15 15 15;
+}
+
+.text input {
+    width: 100%;
+    
+}
+.text3 input {
+    width: 100%;
+    
+}
+.text,.text1,.text2{
+    margin-left:175px;
+    
+}
+.name,.topic,.public{
+    float: left;
+}
+.topic input {
+    width: 100%;
+    
+}
+.name2{
+    display: none;
+}

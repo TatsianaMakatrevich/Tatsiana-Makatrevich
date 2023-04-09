@@ -1,0 +1,13 @@
+@media all and (max-width: 780px){
+    
+    .text,.text1,.text2{
+        margin-left:0px;
+        
+    }
+    .name2{
+        display: block;
+    }
+    .name1{
+        display: none;
+    }
+}

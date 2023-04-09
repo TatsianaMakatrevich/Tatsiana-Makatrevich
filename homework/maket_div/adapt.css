@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    text-align: center;
+    background-color: aqua;
+    padding:20px;
+}
+
+.spisok{
+background-color: bisque;
+}
+
+.middle p:first-of-type{
+    margin-bottom:20px;
+}
+
+.bottom{
+    text-align: center;
+    background-color: aqua;
+    padding:20px;  
+}
+
+.clear{
+    clear: both;
+}
+.btn{
+    position: fixed;
+    top: 40px;
+    right: 26px;
+}
+button{
+    background-color: rgb(234, 234, 154);
+    padding: 10px;
+    
+}
+
+@media all and (max-width:1200px){
+   .middle h1{
+    color:blueviolet;
+    font-size: 16px;
+   } 
+   .middle p{
+    font-size: 14px;
+   } 
+   .middle p:first-of-type{
+    margin-bottom: 0px;
+   }
+   .top{
+    font-size: 14px;
+   }
+   .spisok ul{
+    font-size: 12px;
+   }
+   .spisok a{
+    color:rgb(28, 51, 6);
+   }
+   .spisok h2{
+    font-size: 12px;
+    color:chocolate;
+   }
+   .bottom{
+    font-size: 14px;
+   }
+}
+@media all and (max-width:830px){
+    .middle p{
+    color: green;
+    padding: 10px;
+    
+}
+.middle span{
+    display: none;
+
+}
+}
+@media all and (max-width:600px){
+    .middle p{
+        color: rgb(10, 15, 10);
+        padding: 10px;
+        font-size: 15px;
+        
+    } 
+}
