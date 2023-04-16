@@ -1,15 +1,16 @@
 .container {
-    width: 600px;
     height: 200px;
     display: flex;
     align-items: center;
 }
 
 .sprite {
-    height: 134px;
-    width: 100%;
-    animation: moving 0.8s steps(8) infinite,
-               running 10s linear infinite;
+    height: 148px;
+    width: 70px;
+    background: url('pic/sprite.png') 0px 0px;
+    animation: moving 0.8s steps(6) infinite,
+               step 10s linear infinite;
+               
     position: absolute;
     left: 0;
 }
@@ -20,24 +21,19 @@
     animation: coin 1s steps(10) infinite;
 }
 
-@keyframes moving {
-    from {
-        background: url('pic/sprite.png') 0 0;
-    }
 
-    to {
-        background: url('pic/sprite.png') -465px 0;
+@keyframes moving {
+    100% {
+        background-position: -465px;
     }
+    
 }
 
-@keyframes running {
-    from {
-        left: 0;
-    }
-
-    to {
+@keyframes step {
+    100%{
         left: 100%;
     }
+    
 }
 
 @keyframes coin {
