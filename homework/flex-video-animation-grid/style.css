@@ -1,0 +1,109 @@
+p {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.anim {
+    margin: 38px auto;
+    background-color: aquamarine;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.anim div {
+    width: 100%;
+    animation: moving 3s linear infinite;
+
+}
+
+.anim2 {
+    margin: 38px auto;
+    background-color: rgb(122, 237, 111);
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.anim2 div {
+    display: flex;
+    width: 200%;
+    animation: moving2 5s linear infinite;
+
+}
+
+.anim2 h1 {
+    white-space: nowrap;
+    /*отмена переноса строк*/
+    width: 100%;
+
+}
+
+.song {
+    width: 200px;
+    border: 5px solid greenyellow;
+    background-color: bisque;
+    
+}
+
+.song {
+    font-size: 20px;
+    color: blueviolet
+}
+
+.song:hover {
+    animation: moving5 2s infinite,
+               moving3 5s infinite,
+               moving4 3s infinite;
+               
+}
+
+
+@keyframes moving {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes moving2 {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes moving3 {
+    from {
+        background: bisque;
+    }
+
+    to {
+        background: rgb(200, 98, 161);
+    }
+}
+
+@keyframes moving4 {
+    from {
+        color: blueviolet;
+    }
+
+    to {
+        color: rgb(48, 12, 193);
+    }
+}
+
+@keyframes moving5 {
+    from {
+        border: greenyellow;
+    }
+
+    to {
+        border: rgb(237, 237, 131);
+    }
+}

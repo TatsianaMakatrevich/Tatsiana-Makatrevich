@@ -1,0 +1,51 @@
+.container {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.sprite {
+    height: 134px;
+    width: 100%;
+    animation: moving 0.8s steps(8) infinite,
+               running 10s linear infinite;
+    position: absolute;
+    left: 0;
+}
+
+.sprite1 {
+    height: 48px;
+    width: 48px;
+    animation: coin 1s steps(10) infinite;
+}
+
+@keyframes moving {
+    from {
+        background: url('pic/sprite.png') 0 0;
+    }
+
+    to {
+        background: url('pic/sprite.png') -465px 0;
+    }
+}
+
+@keyframes running {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes coin {
+    from {
+        background: url('pic/coin.webp') 0 0;
+    }
+
+    to {
+        background: url('pic/coin.webp') -480px 0;
+    }
+}
