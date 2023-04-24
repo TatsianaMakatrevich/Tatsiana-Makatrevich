@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+
+}
+
+.top {
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.spisok {
+    background-color: bisque;
+    width: 200px
+}
+
+.middle {
+    margin-left: 10px;
+    background-color: white;
+    background-image: url(../football/pic/ball.png);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+.middle h1 {
+    text-align: center;
+    font-weight: 500px;
+}
+
+.middle p:first-of-type {
+    margin-bottom: 20px;
+}
+
+.picture img {
+    float: left;
+
+}
+
+.bottom {
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+@media all and (max-width:1200px) {
+    .middle h1 {
+        color: blueviolet;
+        font-size: 16px;
+    }
+
+    .middle p {
+        font-size: 14px;
+    }
+
+    .middle p:first-of-type {
+        margin-bottom: 0px;
+    }
+
+    .top {
+        font-size: 14px;
+    }
+
+    .spisok ul {
+        font-size: 12px;
+    }
+
+    .spisok a {
+        color: rgb(41, 26, 122);
+    }
+
+    .spisok h2 {
+        font-size: 12px;
+        color: chocolate;
+    }
+
+    .bottom {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:830px) {
+    .middle p {
+        color: green;
+    }
+
+    .middle span {
+        background-image: url(pic/football_n.png);
+        background-position: right;
+    }
+}
+
+@media all and (max-width:600px) {
+    .spisok{
+        background-color: white;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .spisok ul{
+        display:inline-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .spisok li{
+        list-style-type: none;
+        
+    }
+
+    .middle p {
+        color: rgb(10, 15, 10);
+        font-size: 15px;
+    }
+    .middle{
+        background-image: none;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .bottom {
+        display: none;    
+    }
+  
+    .picture img {
+        float: none;
+    }
+
+}

@@ -5,10 +5,10 @@
 }
 
 .sprite {
-    height: 148px;
-    width: 70px;
-    background: url('pic/sprite.png') 0px 0px;
-    animation: moving 0.8s steps(6) infinite,
+    height: 150px;
+    width: 137px;
+    background: url('pic/boy.png') 0px 0px;
+    animation: moving 1s steps(6) infinite,
                step 10s linear infinite;
                
     position: absolute;
@@ -24,7 +24,7 @@
 
 @keyframes moving {
     100% {
-        background-position: -465px;
+        background-position: -900px;
     }
     
 }
