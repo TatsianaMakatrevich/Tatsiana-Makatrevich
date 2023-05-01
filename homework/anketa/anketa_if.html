@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета IF</title>
+</head>
+
+<body>
+    <script>
+
+        var LastName = prompt('Введите Фамилию');
+        var FirstName = prompt('Введите Имя');
+        var FatherName = prompt('Введите Отчество');
+
+
+        var Age = prompt('Введите ваш возраст');
+        while (true) {
+            var Age = parseInt(Age)
+            if (!isNaN(Age)) break;
+            var Age = prompt('Введите корректное значение:')
+        }
+
+        var AgeDays;
+        console.log('Ваш возраст в днях' + ':' + Age * 365 + "\n");
+
+
+        var AgeYear
+        console.log('Ваш возраст через 5 лет' + ':' + Age + 5 + "\n");
+
+        var gender = confirm('Ваш пол женский?')
+        if (gender === true) {
+            var gender = ('женский')
+        }
+        else {
+            var gender = ('мужской')
+        }
+
+        var rest = confirm('Вы на пенсии?')
+        if (gender === 'женский')
+            if (Age >= 60) {
+                var rest = ('да')
+            }
+            else {
+                var rest = ('нет')
+            }
+
+        if (gender === 'мужской')
+            if (Age >= 65) {
+                var rest = ('да')
+            }
+            else {
+                var rest = ('нет')
+            }
+
+        /* Result*/
+
+        var Fio = ('Ваше ФИО' + ':' + LastName + ' ' + FirstName + ' ' + FatherName)
+        var AgeItog = ('Ваш возраст' + ':' + Age)
+        var AgeDays = ('Ваш возраст в днях' + ':' + (Age * 365))
+        var AgeYear = ('Ваш возраст через 5 лет' + ':' + (Age + 5))
+        var gender = ('Ваш пол' + ':' + gender)
+        var rest = ('Вы на пенсии' + ':' + rest)
+
+        alert(Fio + '\n' + AgeItog + '\n' + AgeDays + '\n' + AgeYear + '\n' + gender + '\n' + rest)
+
+
+    </script>
+</body>
+
+</html>
