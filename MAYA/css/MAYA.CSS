@@ -23,12 +23,22 @@ H1 {
     text-align: center;
 }
 
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: -30px;
+}
+
+
 .sale {
     padding-top: 18px;
     font-size: 18px;
     line-height: 21.94px;
     text-align: center;
     color: white;
+    background: url(../pic/main1.png);
 }
 
 .container_main {
@@ -36,10 +46,15 @@ H1 {
     width: 1440px;
 }
 
-.container {
-    width: 1440px;
+.container_main a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
     height: 922px;
     background: url(../pic/main.png);
+
 }
 
 .top {
@@ -207,7 +222,7 @@ li {
     width: 575px;
     height: 509px;
     border-radius: 10px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .new3 {
@@ -230,7 +245,7 @@ li {
     position: relative;
 }
 
-.new li a{
+.new li a {
     content: "";
     position: absolute;
     font-size: 20px;
@@ -239,10 +254,255 @@ li {
     align-items: center;
     text-transform: uppercase;
     top: 460px;
-    left:12px;
+    left: 12px;
     color: #FFFFFF;
 }
 
-.new li a:nth-child(even){
+.new li a:nth-child(even) {
     color: #6D6868;
+}
+
+/* КУПОН*/
+
+.kupon {
+    margin-top: 110px;
+    background: url(../pic/kupon1.png);
+    height: 300px;
+}
+
+.akcia {
+    text-transform: uppercase;
+    position: relative;
+}
+
+.akcia span {
+    position: absolute;
+    width: 703px;
+    height: 90px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    text-align: center;
+    top: 57px;
+    right: 365px;
+
+}
+
+.akcia a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.btn_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px 36px;
+    width: 231px;
+    height: 70px;
+    left: 608px;
+    background: #BF7691;
+    border-radius: 10px;
+    content: "";
+    position: absolute;
+    top: 168px;
+    right: 633px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/*Отзывы*/
+
+.otzyvy {
+    position: relative;
+    height: 1150px;
+
+}
+
+.otzyvy h1 {
+    margin-top: 197px;
+    margin-left: 25px;
+}
+
+.otzyvy ul {
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.otzyvy ul li {
+    margin-top: 41px;
+}
+
+.otzyvy img {
+    display: flex;
+    margin-right: 110px;
+    height: 355px;
+    border-radius: 10px;
+}
+
+.otz1,
+.otz5 {
+    margin-left: 139px;
+}
+
+.otzyvy .btn_1 {
+    content: "";
+    position: absolute;
+    width: 448px;
+    height: 70px;
+    top: 1055px;
+    left: 516px;
+}
+
+.btn_1 text {
+    margin-left: 41px;
+}
+
+.otzyvy span {
+    margin-left: 41px;
+}
+
+.feedback span {
+    margin-left: 20px;
+}
+
+.feedback li a {
+    margin-top: 21px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+/*НАС СПРАШИВАЮТ*/
+.nas_sprashivajut {
+    margin-top: 204px;
+    height: 891px;
+    background-color: #F8EFF2;
+    ;
+}
+
+.nas_sprashivajut h1 {
+    padding-top: 101px;
+}
+
+
+/*Вопросы*/
+
+.ask {
+    background-image: url(../pic/ask.png);
+    height: 300px;
+    position: relative;
+}
+
+.ask h3 {
+    padding-top: 68px;
+    font-size: 30px;
+    line-height: 37px;
+    color: #4D4D4D;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ask h5 {
+    margin-top: -30px;
+}
+
+.ask .btn_1 {
+    width: 300px;
+    height: 70px;
+    left: 572px
+}
+
+.ask .btn_1 text {
+    margin-left: 26px;
+}
+
+/*КОНТАКТЫ*/
+.contact {
+    height: 772px;
+    background-color: #DCDCDC;
+    position: relative;
+}
+
+.contact h3 {
+    padding-top: 63px;
+    text-align: center;
+    color: #4D4D4D;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.spisok ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.spisok ul li {
+    margin-right: 81px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form_email {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.seti {
+    display: flex;
+    justify-content: center;
+}
+
+.seti img {
+    margin-right: 73px;
+
+}
+
+.email {
+    margin-top: 52px;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(77, 77, 77, 0.5);
+}
+.form_email{
+    margin-top: 25px;
+
+}
+.information {
+    margin-top: 118px;
+    font-size: 14px;
+line-height: 17px;
+color: #4D4D4D;
+}
+
+.inn{
+    margin-left: 138px;
+    margin-right: 908px;
+    margin-top: 118px;
+}
+
+.rights{
+    margin-left: 565px;
+}
+.unp{
+    margin-left: 138px;
+    margin-right: 815px;
+
+}
+
+.policy span{
+    font-size: 14px;
+line-height: 17px;
+color: #4D4D4D;
 }
