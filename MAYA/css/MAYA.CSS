@@ -46,6 +46,27 @@ h5 {
     width: 1440px;
 }
 
+
+.btn_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px 36px;
+    width: 231px;
+    height: 70px;
+    left: 608px;
+    background: #BF7691;
+    border-radius: 10px;
+    content: "";
+    position: absolute;
+    top: 168px;
+    right: 633px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
 .container_main a {
     text-decoration: none;
     color: white;
@@ -292,31 +313,13 @@ li {
 
 .akcia a {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
-.btn_1 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 25px 36px;
-    width: 231px;
-    height: 70px;
-    left: 608px;
-    background: #BF7691;
-    border-radius: 10px;
-    content: "";
-    position: absolute;
-    top: 168px;
-    right: 633px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-}
+
 
 /*Отзывы*/
 
@@ -363,7 +366,7 @@ li {
 }
 
 .btn_1 text {
-    margin-left: 41px;
+    margin-left: 32px;
 }
 
 .otzyvy span {
@@ -480,6 +483,10 @@ li {
 
 }
 
+.email input {
+    display: flex;
+}
+
 .information {
     margin-top: 118px;
     font-size: 14px;
@@ -518,6 +525,11 @@ li {
     height: 53px;
 
 }
+
+.main1 .sale a {
+    color: #4D4D4D;
+}
+
 
 .top1 {
     padding-top: 43px;
@@ -587,7 +599,6 @@ li {
 
 .description {
     width: 693px;
-    height: 603 px;
     font-size: 18px;
     line-height: 160%;
 }
@@ -736,6 +747,465 @@ li {
 }
 
 /* О НАС КОНТАКТЫ*/
-.maya_o_nas_contact h3{
+.maya_o_nas_contact h3 {
     margin-top: 304px;
+
+}
+
+.spisok a {
+    font-size: 20px;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+
+
+
+
+
+
+/*3 СТРАНИЦА-КАТАЛОГ*/
+.center {
+    display: flex;
+}
+
+.filtr {
+    margin-top: 114px;
+    margin-left: 120px;
+    width: 200px;
+}
+
+.filtr h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+
+.filtr ul {
+    margin-top: 41px;
+    margin-left: -17px;
+}
+
+.filtr li {
+    margin-top: 24px;
+}
+
+.filtr a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+    margin-top: 157px;
+}
+
+.slidecontainer p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(72, 72, 72, 0.8);
+    opacity: 0.8;
+}
+
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    /* Full-width */
+    height: 4px;
+    /* Specified height */
+    background: #d3d3d3;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #4CAF50;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.choose_size input {
+    margin-top: 29px;
+}
+
+.size {
+    margin-top: 57px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(72, 72, 72, 0.8);
+    opacity: 0.8;
+}
+
+.size span {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(72, 72, 72, 0.8);
+    opacity: 0.8;
+}
+
+/*Ассортимент*/
+
+.find {
+    position: relative;
+}
+
+.search {
+    content: "";
+    position: absolute;
+    width: 277px;
+    margin: 0 auto;
+    top: -100px;
+    left: 326px;
+}
+
+.search input,
+button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+.search input {
+    width: 100%;
+    height: 42px;
+    background: #E4EEF2;
+    padding-left: 15px;
+}
+
+.search button {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #E4EEF2;
+    cursor: pointer;
+}
+
+.search button:before {
+    content: "";
+    background: #E4EEF2;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.search1 {
+    content: "";
+    position: absolute;
+    width: 277px;
+    margin: 0 auto;
+    top: -100px;
+    left: 628px;
+}
+
+.search1 input,
+button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+.search1 input {
+    width: 100%;
+    height: 42px;
+    background: #E4EEF2;
+    padding-left: 15px;
+}
+
+.search1 button {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #E4EEF2;
+    cursor: pointer;
+}
+
+.search1 button:before {
+    content: "";
+    background: #E4EEF2;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/*Список каталога*/
+
+.list_all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.variety {
+    margin-top: 234px;
+}
+
+.variety li {
+    position: relative;
+    margin-right: 22px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 22px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.list_all li:nth-child(4) {
+    margin-top: 159px;
+}
+
+.list_all li:nth-child(n+4) {
+    margin-top: 159px;
+}
+
+.list_all .btn_1 text {
+    font-weight: 500;
+    font-size: 12.2751px;
+    line-height: 5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 20px;
+    margin-left: 0px;
+
+}
+
+.list_all .btn_1 {
+    position: absolute;
+    width: 145px;
+    height: 41.43px;
+    background: #BF7691;
+    border-radius: 7.67196px;
+    top: 496px;
+    left: 58px;
+
+}
+
+/*Kartochka tovara*/
+.descr_kart {
+    display: flex;
+    position: relative;
+}
+
+.slidermain {
+    width: 473px;
+    height: 430px;
+    background-image: url(../pic/kart_main.png);
+    margin-left: 190px;
+    margin-right: 115px;
+
+}
+
+.sliderPrev {
+    margin-left: 190px;
+}
+
+.sliderNext {
+    margin-left: 433px;
+}
+
+.description1 {
+    margin-top: 180px;
+}
+
+.description1 h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #4D4D4D;
+}
+
+.description1 p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    color: #4D4D4D;
+    text-align: left;
+    margin-top: 35px;
+
+}
+
+.description1 .size {
+    margin-top: 10px;
+}
+
+.slider1 {
+    width: 470px;
+    height: 103px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 190px;
+}
+
+.slider1 img {
+    margin-right: 20px;
+}
+
+.sliderkart {
+    height: 103px;
+    width: 412px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+
+}
+
+.slidermain {
+    width: 473px;
+    height: 430px;
+    background-image: url(../pic/kart_main.png);
+    margin-left: 190px;
+    margin-top: 180px;
+}
+
+.descr_kart .choose_size span {
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+.descr_kart .size {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    opacity: 1;
+}
+
+.descr_kart .choose_size input {
+    margin-top: 22px;
+
+}
+
+.choose_colour input {
+    width: 15px;
+    height: 15px;
+}
+
+.choose_colour {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4d4d4d;
+    position: relative;
+}
+
+.descr_kart .btn_1 {
+    content: "";
+    position: absolute;
+    width: 209px;
+    top: 680px;
+    margin-left: 200px;
+}
+
+.descr_kart .btn_1 text {
+    margin-left: 26px;
+}
+
+/*5 СТРАНИЦА-ДОСТАВКА*/
+
+.delivery {
+    margin-top: 140px;
+    width: 732px;
+    margin-left: 354px;
+}
+
+.order_processing {
+    margin-top: 117px
+}
+
+.delivery span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #4D4D4D;
+
+}
+
+.delivery p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #4D4D4D;
+}
+
+.payment {
+    margin-top: 204px;
+    width: 732px;
+    margin-left: 354px;
+}
+
+.payment li {
+    list-style-type: disc;
+
+}
+
+.payment p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #4D4D4D;
+}
+.payment li{
+    font-size: 18px;
+    line-height: 150%;
+    color: #4D4D4D;
+}
+
+.predoplata {
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+.delivery_maya_o_nas_contact h3{
+    margin-top: 204px;
 }
