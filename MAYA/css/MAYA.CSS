@@ -427,7 +427,8 @@ li {
 }
 
 .ask .btn_1 text {
-    margin-left: 26px;
+    margin-left: 5px;
+    text-align: center;
 }
 
 /*КОНТАКТЫ*/
@@ -733,7 +734,7 @@ li {
 }
 
 .insta_btn_1 {
-    contain: "";
+    content: "";
     position: absolute;
     width: 214px;
     height: 70px;
@@ -1029,7 +1030,7 @@ button {
 
 }
 
-/*Kartochka tovara*/
+/*4 СТРАНИЦА-Kartochka tovara*/
 .descr_kart {
     display: flex;
     position: relative;

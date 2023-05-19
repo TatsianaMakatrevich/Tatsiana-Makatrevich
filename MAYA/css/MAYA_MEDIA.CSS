@@ -155,8 +155,6 @@
         margin-left: 0px;
     }
 
-
-
     .otzyvy .btn_1 {
         content: "";
         position: absolute;
@@ -175,7 +173,6 @@
         width: 211px;
         height: 51px;
         left: 398px;
-
     }
 
     .ask .btn_1 text {
@@ -186,7 +183,6 @@
     .form_email {
         margin-top: 60px;
         line-height: 16px;
-
     }
 
     .inn {
@@ -200,10 +196,214 @@
 
     .unp {
         margin-left: 58px;
-        margin-right: 469px;
+        margin-right: 492px;
     }
-}
 
+    /*2 страница*/
+
+    .main1 .sale a {
+        margin-left: 0px;
+    }
+
+    .top1 img {
+        padding-left: 70px;
+        margin-right: 43px;
+    }
+
+    .top1 ul li {
+        font-size: 14px;
+    }
+
+    .top1 ul li:nth-child(4)::before {
+        background-image: url(../pic/phone.png);
+        width: 40px;
+        height: 40px;
+        right: 120px;
+        top: -5px;
+    }
+
+
+    .top1 ul li:nth-child(1) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(2) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(3) {
+        margin-right: 64px;
+    }
+
+    .top1 ul li:nth-child(4) {
+        margin-right: 48px;
+        position: relative;
+    }
+
+    .about1 .photo img {
+        width: 355px;
+        height: 411px;
+        padding-left: 30px;
+        margin-right: 22px;
+        margin-left: -102px;
+    }
+
+    .wish {
+        width: 836px;
+        height: 210px;
+        margin-left: 95px;
+    }
+
+    .top1 ul li:nth-child(1) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(2) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(3) {
+        margin-right: 64px;
+    }
+
+    .top1 ul li:nth-child(4) {
+        margin-right: 48px;
+        position: relative;
+    }
+
+
+    .description {
+        width: 500px;
+    }
+
+    .insta_foto {
+        margin-left: 35px;
+    }
+
+    .insta_foto3 {
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+
+    .insta_foto4 {
+        margin-left: 0px;
+
+    }
+
+    .insta_foto6 {
+        margin-left: 35px;
+    }
+
+    .insta_btn_1 .btn_1 {
+        top: 470px;
+    }
+
+    .insta_btn_1 text {
+        font-size: 12px;
+    }
+
+    /*3 страница*/
+
+    .filtr {
+        margin-left: 54px;
+    }
+
+    .filtr h1 {
+        font-size: 30px;
+    }
+
+    .search {
+        left: 172px;
+    }
+
+    .search1 {
+        left: 475px;
+    }
+
+    .list {
+        margin-left: 99px;
+    }
+
+    .list_all li img {
+        width: 192px;
+        height: 277px;
+    }
+
+    .list_all .btn_1 {
+        top: 394px;
+        left: 28px;
+    }
+
+
+    /*4 PAGE*/
+
+    .slidermain {
+        width: 328px;
+        height: 298px;
+        background-image: url(../pic/kart_main_1000.png);
+        margin-left: 180px;
+        margin-right: 23px;
+
+    }
+
+    .description1 h3 {
+        font-size: 20px;
+    }
+
+    .description1 p {
+        font-size: 16px;
+    }
+
+    .slider1 {
+        width: 239px;
+        margin-left: 231px;
+    }
+
+    .sliderPrev {
+        margin-left: 234px;
+    }
+
+    .sliderNext {
+        margin-left: 186px;
+    }
+
+    .descr_kart .btn_1 {
+        width: 150px;
+        top: 599px;
+        margin-left: 158px;
+    }
+
+    .descr_kart .btn_1 text {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    /*5 СТРАНИЦА-ДОСТАВКА*/
+
+    .delivery {
+        width: 532px;
+        margin-left: 234px;
+    }
+
+    .payment {
+        width: 532px;
+        margin-left: 234px;
+    }
+
+    .delivery span {
+        font-size: 18px;
+    }
+
+    .delivery p {
+        font-size: 16px;
+    }
+
+    .delivery h1 {
+        font-size: 35px;
+    }
+
+
+}
 
 
 @media all and (max-width: 1024px) {
@@ -348,7 +548,7 @@
     .kupon {
 
         background: url(../pic/kupon_700.png);
-        height: 208px;
+        height: 146px;
     }
 
     .akcia span {
@@ -356,7 +556,7 @@
         width: 502px;
         height: 90px;
         font-size: 20px;
-        top: 57px;
+        top: 20px;
         right: 105px;
     }
 
@@ -371,13 +571,14 @@
         left: 408px;
         padding: 16px 16px;
         left: 266px;
-        top: 148px;
+        top: 90px;
     }
 
     .otzyvy {
         height: 1900px;
     }
-    .otzyvy h1{
+
+    .otzyvy h1 {
         font-size: 35px;
     }
 
@@ -387,11 +588,13 @@
 
     .otz1,
     .otz3,
-    .otz5,.otz7  {
+    .otz5,
+    .otz7 {
         margin-left: 60px;
     }
 
-    .otz4,.otz8{
+    .otz4,
+    .otz8 {
         margin-left: 0px;
     }
 
@@ -409,13 +612,16 @@
         background-image: url(../pic/ask_700.png);
         height: 146px;
     }
-    .nas_sprashivajut h1{
+
+    .nas_sprashivajut h1 {
         font-size: 35px;
     }
-    .ask h3{
+
+    .ask h3 {
         font-size: 20px;
         padding-top: 22px;
     }
+
     .ask .btn_1 {
         width: 211px;
         height: 51px;
@@ -429,13 +635,15 @@
         margin-left: 7px;
         font-size: 13px;
     }
-    .contact h3{
+
+    .contact h3 {
         font-size: 20px;
     }
+
     .spisok a {
         margin-right: 16px;
         font-size: 15px;
-        }
+    }
 
 
     .form_email {
@@ -446,7 +654,7 @@
 
     .inn {
         margin-left: 32px;
-    margin-right: 380px;
+        margin-right: 380px;
     }
 
     .rights {
@@ -455,6 +663,872 @@
 
     .unp {
         margin-left: 32px;
-        margin-right: 269px;
+        margin-right: 263px;
+    }
+
+    /*2 страница*/
+
+    .main1 .sale a {
+        margin-left: 0px;
+    }
+
+    .top1 img {
+        padding-left: 25px;
+        margin-right: 0px;
+    }
+
+    .top1 ul li:nth-child(1) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(2) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(3) {
+        margin-right: 64px;
+    }
+
+    .top1 ul li:nth-child(4) {
+        margin-right: 48px;
+        position: relative;
+    }
+
+    .about1 .photo img {
+        width: 280px;
+        height: 321px;
+        padding-left: 30px;
+        margin-right: 0px;
+        margin-left: -145px;
+    }
+
+    .wish {
+        width: 536px;
+        height: 210px;
+        margin-left: 82px;
+    }
+
+    .wish p {
+        font-size: 25px;
+    }
+
+    .top1 ul li:nth-child(1) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(2) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(3) {
+        margin-right: 30px;
+    }
+
+    .top1 ul li:nth-child(4) {
+        margin-right: 48px;
+        position: relative;
+    }
+
+
+    .description {
+        width: 500px;
+    }
+
+    .insta_foto {
+        margin-left: 35px;
+    }
+
+    .insta_foto2 {
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+
+    .insta_foto3 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .insta_foto4 {
+        margin-left: 35px;
+
+    }
+
+    .insta_foto6 {
+        margin-left: 35px;
+    }
+
+    .insta_btn_1 .btn_1 {
+        top: 761px;
+        left: 243px;
+    }
+
+    .insta_btn_1 text {
+        font-size: 12px;
+    }
+
+    .spisok ul li {
+        margin-right: 21px;
+    }
+
+    .seti img {
+        margin-right: 15px;
+    }
+
+    /*3 страница*/
+
+    .filtr {
+        margin-left: 16px;
+        width: 150px;
+    }
+
+    .filtr h1 {
+        font-size: 20px;
+    }
+
+    .filtr li a {
+        font-size: 16px;
+    }
+
+    .search {
+        left: 172px;
+        width: 157px;
+    }
+
+    .search1 {
+        left: 340px;
+        width: 199px;
+    }
+
+    .list {
+        margin-left: 40px;
+    }
+
+    .list_all li img {
+        width: 135px;
+        height: 195px;
+    }
+
+    .list_all .btn_1 {
+        top: 302px;
+        left: 17px;
+        width: 105px;
+    }
+
+    .list_all .btn_1 text {
+        font-size: 9px;
+        left: 58px;
+    }
+
+    .list_all li:nth-child(4) {
+        margin-top: 139px;
+    }
+
+    .list_all li:nth-child(n+4) {
+        margin-top: 119px;
+    }
+
+    /*4 page*/
+    .slidermain {
+        width: 328px;
+        height: 298px;
+        background-image: url(../pic/kart_main_1000.png);
+        margin-left: 20px;
+        margin-right: 23px;
+
+    }
+
+    .description1 h3 {
+        font-size: 18px;
+    }
+
+    .description1 p {
+        font-size: 12px;
+    }
+
+    .descr_kart .choose_size span {
+        font-size: 10px;
+    }
+
+    .descr_kart .size {
+        font-size: 14px;
+    }
+
+    .choose_colour {
+        font-size: 14px;
+    }
+
+    .choose_colour input span {
+        font-size: 10px;
+    }
+
+    .slider1 {
+        width: 239px;
+        margin-left: 70px;
+    }
+
+    .sliderPrev {
+        margin-left: 70px;
+    }
+
+    .sliderNext {
+        margin-left: 186px;
+    }
+
+    .descr_kart .btn_1 {
+        width: 120px;
+        top: 599px;
+    }
+
+    .descr_kart .btn_1 text {
+        margin-left: 12px;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    /*5 СТРАНИЦА-ДОСТАВКА*/
+
+    .delivery {
+        width: 400px;
+        margin-left: 154px;
+    }
+
+    .payment {
+        width: 400px;
+        margin-left: 154px;
+    }
+
+    .delivery span {
+        font-size: 16px;
+    }
+
+    .delivery p {
+        font-size: 14px;
+    }
+
+    .delivery h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-width: 710px) {
+    .container_main {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .sale {
+        background: url(../pic/main1_300.png);
+        font-size: 8px;
+        height: 37px;
+    }
+
+    .sale a {
+        margin-top: 5px;
+    }
+
+    .main {
+        height: 193px;
+        background: url(../pic/main_300.png);
+    }
+
+    .top {
+        padding-top: 6px;
+    }
+
+    .top img {
+        width: 104px;
+        height: 28px;
+        padding-top: 10px;
+        padding-left: 16px;
+        margin-right: 0px;
+    }
+
+    .top ul li {
+        display: block;
+    }
+
+    .top ul li:nth-child(1) {
+        margin-right: 0px;
+        font-size: 6px;
+    }
+
+    .top ul li:nth-child(2) {
+        margin-right: 5px;
+        font-size: 6px;
+    }
+
+    .top ul li:nth-child(3) {
+        margin-right: 9px;
+        font-size: 6px;
+    }
+
+    .top ul li:nth-child(4) {
+        margin-right: 8px;
+        font-size: 6px;
+    }
+
+    .logo_center {
+        width: 60px;
+        height: 22px;
+        top: 31px;
+        left: 116px
+    }
+
+    .text {
+        font-size: 8px;
+        margin-top: 41px;
+    }
+
+    .text::before {
+        display: none;
+    }
+
+    .catalog h1 {
+        margin-top: 47px;
+        margin-left: 2px;
+        font-size: 15px;
+    }
+
+    .catalog ul {
+        display: flex;
+        margin-top: 48px;
+    }
+
+    .bandage {
+        background-image: url(../pic/catalog1_300.png);
+        width: 58px;
+        height: 88px;
+        margin-right: 20px;
+        margin-left: -10px;
+
+    }
+
+    .bustgaltery {
+        background-image: url(../pic/catalog2_300.png);
+        width: 58px;
+        height: 88px;
+        margin-right: 20px;
+    }
+
+    .trusy {
+        background-image: url(../pic/catalog3_300.png);
+        width: 58px;
+        height: 88px;
+        margin-right: 20px;
+    }
+
+    .drugoe {
+        background-image: url(../pic/catalog4_300.png);
+        width: 58px;
+        height: 88px;
+        margin-right: 20px;
+    }
+
+    .catalog li a {
+        top: 63px;
+        width: 58px;
+        height: 35px;
+        font-size: 4px;
+    }
+
+    .new {
+        margin-top: 74px;
+    }
+
+    .new h1 {
+        font-size: 15px;
+        margin-left: -36px;
+    }
+
+    .new1 {
+        background-image: url(../pic/new1_300.png);
+        width: 120px;
+        height: 106px;
+        margin-left: -12px;
+
+    }
+
+    .new2 {
+        background-image: url(../pic/new2_300.png);
+        width: 120px;
+        height: 106px;
+    }
+
+    .new3 {
+        background-image: url(../pic/new3_300.png);
+        width: 78px;
+        height: 106px;
+        margin-left: -12px;
+
+    }
+
+    .new4 {
+        background-image: url(../pic/new4_300.png);
+        width: 161px;
+        height: 107px;
+    }
+
+    .new li a {
+        top: 84px;
+        left: 12px;
+        font-size: 7px;
+    }
+
+    .kupon {
+
+        background: url(../pic/kupon_300.png);
+        height: 63px;
+    }
+
+    .akcia span {
+        position: absolute;
+        width: 202px;
+        height: 90px;
+        font-size: 7px;
+        top: 20px;
+        right: 47px;
+    }
+
+    .akcia a {
+        font-size: 7px;
+        left: 79px;
+    }
+
+    .btn_1 {
+        padding: 25px 36px;
+        width: 120px;
+        height: 48px;
+        left: 408px;
+        padding: 16px 16px;
+        left: 266px;
+        top: 90px;
+    }
+
+    .otzyvy {
+        height: 1900px;
+    }
+
+    .otzyvy h1 {
+        font-size: 15px;
+        margin-top: 144px;
+        margin-left: -4px;
+    }
+
+    .otzyvy img {
+        width: 200px;
+        height: 355px;
+        margin-right: 90px;
+    }
+
+    .otz1,
+    .otz2,
+    .otz3,
+    .otz4 {
+        margin-left: 20px;
+    }
+
+    .otz5,
+    .otz6,
+    .otz7,
+    .otz8 {
+        display: none;
+    }
+
+    .otzyvy .btn_1 {
+        content: "";
+        position: absolute;
+        width: 274px;
+        height: 54px;
+        top: 1930px;
+        left: 18px;
+        font-size: 9px;
+    }
+
+    .feedback span {
+
+        font-size: 12px;
+    }
+
+    .ask {
+        background-image: url(../pic/ask_300.png);
+        height: 61px;
+    }
+
+    .nas_sprashivajut {
+        height: 450px;
+    }
+
+    .nas_sprashivajut h1 {
+        font-size: 15px;
+        padding-top: 27px;
+    }
+
+    .ask h3 {
+        font-size: 10px;
+        padding-top: 0px;
+    }
+
+    .ask h5 {
+        font-size: 13px;
+    }
+
+    .ask .btn_1 {
+        width: 149px;
+        height: 41px;
+        left: 78px;
+        top: 73px;
+
+    }
+
+    .ask .btn_1 text {
+        margin-left: 7px;
+        font-size: 8px;
+    }
+
+    .contact h3 {
+        font-size: 20px;
+    }
+
+    .spisok a {
+        margin-right: 16px;
+        font-size: 15px;
+    }
+
+
+    .form_email {
+        margin-top: 60px;
+        line-height: 16px;
+
+    }
+
+    .inn {
+        margin-left: 2px;
+        margin-right: 129px;
+    }
+
+    .rights {
+        margin-left: 55px;
+    }
+
+    .unp {
+        margin-left: 3px;
+        margin-right: 65px;
+    }
+
+    .information {
+        font-size: 8px
+    }
+
+    .policy span {
+        font-size: 8px
+    }
+
+    /*2 страница*/
+
+    .main1 .sale a {
+        margin-left: 0px;
+    }
+
+    .top1 img {
+        padding-left: 0px;
+        margin-right: 0px;
+        width: 62px;
+        height: 33px;
+    }
+
+    .top1 ul li:nth-child(1) {
+        margin-right: 5px;
+        font-size: 10px;
+
+    }
+
+    .top1 ul li:nth-child(2) {
+        margin-right: 5px;
+        font-size: 10px;
+
+    }
+
+    .top1 ul li:nth-child(3) {
+        margin-right: 5px;
+        font-size: 10px;
+    }
+
+    .top1 ul li:nth-child(4) {
+        margin-right: 0px;
+        position: relative;
+        font-size: 10px;
+    }
+
+    .top1 ul li:nth-child(4)::before {
+        display: none;
+    }
+
+    .about1 {
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+    .photo {
+        margin-left: 114px;
+        margin-right: 67px;
+    }
+
+    .about_us {
+        font-size: 15px;
+    }
+
+    .wish {
+        width: 300px;
+        height: 210px;
+        margin-left: 0px;
+    }
+
+    .wish p {
+        font-size: 10px;
+
+    }
+
+    .description {
+        width: 300px;
+    }
+
+    .insta1 {
+        margin-top: 69PX;
+        font-size: 15px;
+        display: inline block;
+    }
+
+
+    .insta_foto {
+        margin-left: 0px;
+        background-image: url(../pic/v_instagram_300.png);
+        width: 58px;
+        height: 58px;
+    }
+
+    .insta_foto1 {
+        width: 58px;
+        height: 58px;
+        background-image: url(../pic/v_instagram_300.png);
+    }
+
+    .insta_foto2 {
+        margin-left: 0px;
+        margin-top: 0px;
+        background-image: url(../pic/v_instagram_300.png);
+        width: 58px;
+        height: 58px;
+    }
+
+    .insta_foto3 {
+        margin-left: 0px;
+        margin-top: 20px;
+        background-image: url(../pic/v_instagram_300.png);
+        width: 58px;
+        height: 58px;
+    }
+
+    .insta_foto4 {
+        margin-left: 0px;
+        background-image: url(../pic/v_instagram_300.png);
+        width: 58px;
+        height: 58px;
+
+    }
+
+    .insta_foto5,
+    .insta_foto6,
+    .insta_foto7 {
+        display: none;
+    }
+
+    .insta2 li:hover {
+        width: 58px;
+        height: 58px;
+        background-image: url(../pic/black_friday_300.png);
+    }
+
+    .insta_btn_1 .btn_1 {
+        top: -315px;
+        left: 54px;
+    }
+
+    .insta_btn_1 text {
+        font-size: 8px;
+    }
+
+    .spisok ul li {
+        margin-right: 21px;
+    }
+
+    .seti img {
+        margin-right: 15px;
+    }
+
+    /*3 страница*/
+
+    .filtr {
+        margin-left: 0px;
+        width: 80px;
+    }
+
+    .filtr h1 {
+        font-size: 15px;
+    }
+
+    .filtr li a {
+        font-size: 12px;
+    }
+
+    .search {
+        left: 64px;
+        width: 157px;
+    }
+
+    .search input {
+        font-size: 10px;
+    }
+
+    .search1 {
+        left: 64px;
+        width: 158px;
+        top: -49px;
+    }
+
+    .search1 input {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    .name{
+        font-size: 10px;
+       
+    }
+    .price {
+        font-size: 10px;
+        margin-top: -37px;
+    }
+
+    .list {
+        margin-left: 40px;
+    }
+
+    .list_all li img {
+        width: 135px;
+        height: 195px;
+    }
+
+    .list_all .btn_1 {
+        top: 278px;
+        left: 17px;
+        width: 105px;
+    }
+
+    .list_all .btn_1 text {
+        font-size: 9px;
+        left: 58px;
+    }
+
+    .list_all li:nth-child(4) {
+        margin-top: 139px;
+    }
+
+    .list_all li:nth-child(n+4) {
+        margin-top: 119px;
+    }
+
+    .size span {
+        font-size: 8px;
+    }
+    .variety li{
+        margin-top: 55px;
+    }
+
+    /*4 page*/
+    .slidermain {
+        width: 171px;
+        height: 90px;
+        background-image: url(../pic/kart_main_300.png);
+        margin-left: 20px;
+        margin-right: 23px;
+
+    }
+
+    .description1 h3 {
+        font-size: 18px;
+    }
+
+    .description1 p {
+        font-size: 12px;
+    }
+
+    .descr_kart .choose_size span {
+        font-size: 10px;
+    }
+
+    .descr_kart .size {
+        font-size: 14px;
+    }
+
+    .choose_colour {
+        font-size: 14px;
+    }
+
+    .choose_colour input span {
+        font-size: 10px;
+    }
+
+    .slider1 {
+        width: 111px;
+        margin-left: 20px;
+        margin-top:-420px
+    }
+
+    .sliderPrev {
+        margin-left: 20px;
+    }
+
+    .sliderNext {
+        margin-left: 67px;
+    }
+
+    .descr_kart .btn_1 {
+        width: 120px;
+        top: 739px;
+    left: -16px;
+    }
+
+    .descr_kart .btn_1 text {
+        margin-left: 12px;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    /*5 СТРАНИЦА-ДОСТАВКА*/
+
+    .delivery {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .payment {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .payment span {
+        font-size: 16px;
+    }
+
+    .payment,  p {
+        font-size: 14px;
+    }
+
+    .delivery h1 {
+        font-size: 30px;
+    }
+    .delivery span{
+        font-size: 16px;
     }
 }
